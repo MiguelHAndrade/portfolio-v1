@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.bolt{
+    font-weight: 800;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.main-container{
+    background-color: #eeeeeedc;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-container,
+.skills,
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1{
+    margin: 10px 0 30px 0;
+    text-align: center;
+    cursor: default;
+    font-weight: 800;
+    font-size: 32pt;
+}
+
+.card,
+.skills-container,
+.description-container{
+    width: 50vw;
+    margin: 20px 0;
+}
+
+.skills-container li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    background-color: #333;
+    color: #EEE;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 10pt;
+    cursor: default;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.skills-container li:hover{
+    background-color: #EEE;
+    color: #333;
+    transform: scale(1.25);
+    border: 1px solid #333;
+}
+
+.description-container{
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.description-container:hover{
+    padding: 8px;
+    background-color: #333;
+    color: #EEE;
+    transform: scale(1.25);
+}
+
+.card img{
+    max-height: 66vh;
+    max-width: 50vw;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 8px 8px 18px #222222cc;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    transform: scale(1.25);
+}
+
+figcaption{
+    text-align: center;
+    margin: 30px 0 60px 0;
+    font-size: 14pt;
+    cursor: default;
+}
+
+.line{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 1.5px solid #333333cc;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.project-link{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.skills-title,
+.description-title{
+    font-size: 16pt;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.description-text{
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.icon{
+    padding: 5px;
+    background-color: #333;
+    color: #DDD;
+    border-radius: 20px;
+    transform: scale(1.5);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.icon:hover{
+    background-color: #DDD;
+    color: #333;
+    transform: scale(2.5);
+    border: 1px solid #333;
+}
+
+/* Projects ID /////////////////////////////////////////////////// */
+
+/* Project 1 //////////     //////////      ////////// Logo for Esthetician */
+
+#project-1{
+    background-image: url('https://images.pexels.com/photos/3312887/pexels-photo-3312887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
+
+/* Project 2 //////////     //////////      ////////// Cap for Fight Event */
+
+#project-2{
+    background-image: url('https://images.pexels.com/photos/4761613/pexels-photo-4761613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
+
+/* Project 3 //////////     //////////      ////////// Logo for FPV Pilot */
+
+#project-3{
+    background-image: url('https://images.pexels.com/photos/3876438/pexels-photo-3876438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
+
+/* Project 4 //////////     //////////      ////////// Image Vectorization */
+
+#project-4{
+    background-image: url('https://images.pexels.com/photos/7605260/pexels-photo-7605260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
+
+/* Project 5 //////////     //////////      ////////// Screenshot to HTML */
+
+#project-5{
+    background-image: url('https://images.pexels.com/photos/2333293/pexels-photo-2333293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
