@@ -118,7 +118,7 @@ figcaption{
 
 .project-link{
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .skills-title,
@@ -152,9 +152,20 @@ figcaption{
 
 /* Projects ID /////////////////////////////////////////////////// */
 
-/* Project 1 //////////     //////////      ////////// Logo for Esthetician */
+/* Project 1 //////////     //////////      ////////// Logo for Advertising Company */
 
 #project-1{
+    background-image: url('https://images.pexels.com/photos/5651686/pexels-photo-5651686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: #333;
+    padding: 5% 10%;
+}
+
+/* Project 2 //////////     //////////      ////////// Logo for Esthetician */
+
+#project-2{
     background-image: url('https://images.pexels.com/photos/3312887/pexels-photo-3312887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,9 +174,9 @@ figcaption{
     padding: 5% 10%;
 }
 
-/* Project 2 //////////     //////////      ////////// Cap for Fight Event */
+/* Project 3 //////////     //////////      ////////// Cap for Fight Event */
 
-#project-2{
+#project-3{
     background-image: url('https://images.pexels.com/photos/4761613/pexels-photo-4761613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,9 +185,9 @@ figcaption{
     padding: 5% 10%;
 }
 
-/* Project 3 //////////     //////////      ////////// Logo for FPV Pilot */
+/* Project 4 //////////     //////////      ////////// Logo for FPV Pilot */
 
-#project-3{
+#project-4{
     background-image: url('https://images.pexels.com/photos/3876438/pexels-photo-3876438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,9 +196,9 @@ figcaption{
     padding: 5% 10%;
 }
 
-/* Project 4 //////////     //////////      ////////// Image Vectorization */
+/* Project 5 //////////     //////////      ////////// Image Vectorization */
 
-#project-4{
+#project-5{
     background-image: url('https://images.pexels.com/photos/7605260/pexels-photo-7605260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,9 +207,9 @@ figcaption{
     padding: 5% 10%;
 }
 
-/* Project 5 //////////     //////////      ////////// Screenshot to HTML */
+/* Project 6 //////////     //////////      ////////// Screenshot to HTML */
 
-#project-5{
+#project-6{
     background-image: url('https://images.pexels.com/photos/2333293/pexels-photo-2333293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
